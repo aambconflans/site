@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Association des Amis du Musée de la Batellerie</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      height: 60px;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .intro {
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .link-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+      flex: 1 1 250px;
+      text-decoration: none;
+      color: #2c3e50;
+      transition: transform 0.2s;
+    }
+    .link-card:hover {
+      transform: scale(1.05);
+    }
+    .images {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+    }
+    .images img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.9em;
+      color: #777;
+    }
+    @media (max-width: 600px) {
+      .link-card {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo2.png" alt="Logo AAMB">
+    <h1>Association des Amis du Musée de la Batellerie</h1>
+  </header>
+  <div class="container">
+    <section class="intro">
+      <p>L'association des Amis du Musée de la Batellerie œuvre pour la préservation et la valorisation du patrimoine fluvial. Elle soutient le musée de Conflans-Sainte-Honorine, participe à la médiation autour de la batellerie, et mène des projets concrets de restauration.</p>
+      <p>Actuellement, l'association s'engage pour la restauration de deux bateaux emblématiques : le remorqueur <strong>Jacques</strong> et le bateau de plaisance <strong>Triton 25</strong>, afin de préserver leur mémoire et les transmettre aux générations futures.</p>
+    </section>
+
+    <section class="links">
+      <a class="link-card" href="http://museebatellerie.blogspot.com" target="_blank">Blog du musée</a>
+      <a class="link-card" href="http://associationaamb.blogspot.com" target="_blank">Blog de l'association</a>
+      <a class="link-card" href="https://www.musee-batellerie-conflans.fr" target="_blank">Site du musée</a>
+      <a class="link-card" href="https://www.helloasso.com/associations/association-des-amis-du-musee-de-la-batellerie" target="_blank">Adhérer à l'association</a>
+    </section>
+
+    <section class="images">
+      <div>
+        <h3>Le Triton 25</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Triton25.jpg/800px-Triton25.jpg" alt="Photo du Triton 25">
+        <p><small>Source : Wikipédia - <a href="https://fr.wikipedia.org/wiki/Triton_25" target="_blank">Triton 25</a></small></p>
+      </div>
+      <div>
+        <h3>Le remorqueur Jacques</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Jacques-Remorqueur.jpg/800px-Jacques-Remorqueur.jpg" alt="Photo du remorqueur Jacques">
+        <p><small>Source : Wikipédia - <a href="https://fr.wikipedia.org/wiki/Jacques_(remorqueur)" target="_blank">Jacques (remorqueur)</a></small></p>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; Association des Amis du Musée de la Batellerie – Conflans-Sainte-Honorine</p>
+  </footer>
+</body>
+</html>
